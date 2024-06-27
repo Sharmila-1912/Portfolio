@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Project Images</title>
+    <style>
+        body {
+            background-color: hsla(0, 100%, 50%, 0.1);
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        .gallery {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .gallery img {
+            width: auto;
+            height: 200px;
+            margin-bottom: 20px;  /* Increased margin */
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+        .download-links {
+            margin-top: 20px;
+        }
+        .download-links a {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 5px;
+            font-size: 16px;
+            font-weight: bold;
+            color: white;
+            background-color: #4CAF50;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .download-links a:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h2>Project Images</h2>
+    <div class="gallery">
+        <img src="p1.png" alt="Project 1">
+        <img src="p7.png" alt="Project 7">
+        <img src="p8.png" alt="Project 2">
+        <img src="p2.png" alt="Project 8">
+        <img src="p3.png" alt="Project 3">
+        <img src="p6.png" alt="Project 6">
+        <img src="p5.png" alt="Project 5">
+        <img src="p4.png" alt="Project 4">
+    </div>
+    <div class="download-links">
+        <a href="project_presentation.pptx" download>Download PPT</a>
+    </div>
+</body>
+</html>

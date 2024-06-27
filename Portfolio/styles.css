@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    background-color: #444;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 14px 20px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    color: #ffeb3b; /* Change text color on hover */
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: Khaki;
+}
+
+table, th, td {
+    border: 3px solid black;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+.contact-info {
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px auto;
+    display: inline-block;
+    background-color: #fff8dc; /* Light background color */
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: blue;
+}
+
+.contact-info a:hover {
+    color: red; /* Change link color on hover */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Pseudo-classes for interactivity */
+section:hover {
+    background-color: #e0e0e0; /* Change background color on hover */
+}
+
+section:focus {
+    background-color: #c8c8c8; /* Change background color on focus */
+}
+
+a:link {
+    color:red; /* Normal link color */
+}
+
+a:visited {
+    color: rgb(22, 32, 96); /* Visited link color */
+}
+
+a:hover {
+    color: red; /* Link color on hover */
+}
+
+a:active {
+    color: rgb(18, 195, 189); /* Link color on active */
+}
+h2{
+    background-color:SteelBlue;
+}
+li:hover{
+    color:hotpink;
+}
